@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="3c3df72e-2b0c-4a39-a2fa-fb8e6d86f527" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55516/SWLNGPT.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SWLNGPT.xsd" MetadataType="Schema" ID="c4db107c-4b0b-4a75-9726-7bb6e081425d" SourceId="1" SourceUrl="http://localhost:55516/SWLNGPT.svc?xsd=xsd0" />
+    <MetadataFile FileName="SWLNGPT1.xsd" MetadataType="Schema" ID="cfe120e9-ef9f-49d2-bc99-fd566f05c269" SourceId="1" SourceUrl="http://localhost:55516/SWLNGPT.svc?xsd=xsd1" />
+    <MetadataFile FileName="SWLNGPT2.xsd" MetadataType="Schema" ID="1f3de5c3-85af-4984-8b50-5257f2ed0506" SourceId="1" SourceUrl="http://localhost:55516/SWLNGPT.svc?xsd=xsd2" />
+    <MetadataFile FileName="SWLNGPT3.xsd" MetadataType="Schema" ID="b2f4a19c-1143-42c8-b960-8146ea7af404" SourceId="1" SourceUrl="http://localhost:55516/SWLNGPT.svc?xsd=xsd3" />
+    <MetadataFile FileName="SWLNGPT.wsdl" MetadataType="Wsdl" ID="f0ed3adf-eea6-4d6b-bf4d-e99e05efaaac" SourceId="1" SourceUrl="http://localhost:55516/SWLNGPT.svc?wsdl" />
+    <MetadataFile FileName="SWLNGPT.disco" MetadataType="Disco" ID="d69cf93f-48aa-40a7-9f94-d64a6eead2aa" SourceId="1" SourceUrl="http://localhost:55516/SWLNGPT.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

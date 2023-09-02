@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="2e186e00-d8f8-4d14-92e3-351092250638" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55505/SWADNETGPT.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SWADNETGPT.xsd" MetadataType="Schema" ID="68ac397c-fb50-4faa-8436-cce52d5795c8" SourceId="1" SourceUrl="http://localhost:55505/SWADNETGPT.svc?xsd=xsd1" />
+    <MetadataFile FileName="SWADNETGPT.wsdl" MetadataType="Wsdl" ID="caf0284a-aa38-47e2-9dfa-3c332c3b1b71" SourceId="1" SourceUrl="http://localhost:55505/SWADNETGPT.svc?wsdl" />
+    <MetadataFile FileName="SWADNETGPT1.xsd" MetadataType="Schema" ID="de746235-1dc2-49c4-8e36-d211bd00815f" SourceId="1" SourceUrl="http://localhost:55505/SWADNETGPT.svc?xsd=xsd0" />
+    <MetadataFile FileName="SWADNETGPT.disco" MetadataType="Disco" ID="081d784f-a680-4c3f-8cd3-9e0471c79f03" SourceId="1" SourceUrl="http://localhost:55505/SWADNETGPT.svc?disco" />
+    <MetadataFile FileName="SWADNETGPT2.xsd" MetadataType="Schema" ID="f2c1e424-216d-420f-adb6-dc47ca300513" SourceId="1" SourceUrl="http://localhost:55505/SWADNETGPT.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

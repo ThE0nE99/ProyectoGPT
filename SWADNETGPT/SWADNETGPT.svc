@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SWADNETGPT" CodeBehind="~/App_Code/SWADNETGPT.cs" %>
