@@ -14,6 +14,7 @@
                 <asp:Button ID="btnFormularios" runat="server" Text="Proyectos-Formularios" OnClick="btnFormularios_Click" />
                 <asp:Button ID="btnFiltrarProyectos" runat="server" Text="Filtros Proyectos(General)" OnClick="btnFiltrarProyectos_Click" />
                 <asp:Button ID="btnInformacion" runat="server" Text="Informacion Proyectos" OnClick="btnInformacion_Click" />
+                <!-- hola -->
             </div>
         </div>
 </asp:Content>
