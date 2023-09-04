@@ -1,0 +1,110 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/*Contendor*/
+.contenedor {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #860842;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/*Titulo*/
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/*Busqueda Estudiante */
+.busquedaEst {
+    margin-bottom: 20px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.lblEst {
+    font-weight: bold;
+    flex: 1;
+    margin-right: 10px;
+    color:white;
+}
+.txtBusqueda {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+/* Letras Lista */
+.ListaTexto {
+    color: white;
+    margin-bottom: 20px;
+    font-size:13px;
+    
+}
+/*radio buton */
+.radio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.radio label {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+.radioBoton {
+    transform: scale(2);
+    margin: 10px;
+}
+/*Datos del trabajo*/
+
+.Datos {
+    margin-bottom: 20px;
+}
+
+.txtDatos {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+/*datos de asesoramiento*/
+.busquedaTutor {
+    margin-bottom: 20px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.lblTutor {
+    font-weight: bold;
+    flex: 1;
+    margin-right: 10px;
+    color: white;
+    padding-left: 50px;
+}
+
+.txtBusquedaTutor {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 5px;
+    cursor: pointer;
+}
