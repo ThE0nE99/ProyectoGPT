@@ -1,0 +1,92 @@
+﻿body {
+    background-color: #e6e6e6;
+}
+/*contenedor principal*/
+.contenedor {
+    margin: 20px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+/* buscador seccion 1*/
+.buscador {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.txtBusqueda {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+
+/*tabla*/
+.contenedorTabla {
+    width: 100%;
+    overflow-x: auto;
+    border: 2px solid #860842;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.EstiloTable {
+    border-collapse: separate; /* Separar las celdas */
+    border-spacing: 20px; /* Establecer el espaciado entre columnas y filas */
+    width: 100%;
+    font-size: 16px;
+    background-color: #e6e6e6;
+}
+
+    .EstiloTable th {
+        background-color: #000; /* Color de fondo del encabezado (negro) */
+        color: #fff;
+        text-align: center;
+        padding: 8px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .EstiloTable td {
+        text-align: left;
+        padding: 5px 5px 5px 25px;
+        background-color: #fff;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+/*boton tabla*/
+.btnLinea {
+    display: flex;
+    align-items: center;
+}
+
+.Btntabla {
+    background-color: antiquewhite;
+    background-color: #860842;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    height: 40px;
+    flex-grow: 1; /* Los botones ocuparán todo el espacio disponible */
+    margin: 0 5px; /* Espacio entre botones (ajustable según sea necesario) */
+    max-width: 100px; /* Ancho máximo de los botones (ajustable según sea necesario) */
+    white-space: nowrap; /* Evita que el texto en los botones se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que desborda el ancho máximo */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) para el texto que no cabe */
+    cursor: pointer;
+}
+
+    .Btntabla:hover {
+        background-color: #a5195b; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+
+/* Agrega una clase a las filas de la tabla para aplicar estilos flex */

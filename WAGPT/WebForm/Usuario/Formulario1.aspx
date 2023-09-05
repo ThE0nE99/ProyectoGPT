@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Formulario</title>
-    <link rel="stylesheet" type="text/css" href="../../../Estilos/Formulario1.css"/>
+    <link rel="stylesheet" type="text/css" href="../../Estilos/Formulario1.css"/>
 </head>
 <body>
     <div class="contenedor">
@@ -14,7 +14,7 @@
         <form action="#" method="post">
             <div class="busquedaEst">
                 <label class="lblEst" for="nombre">Estudiante:</label>
-                <input class="txtBusqueda" type="text" id="Buscar" name="Buscar"  />
+                <input class="txtBusqueda" type="text" id="Buscar" name="Buscar"/>
             </div >
             <div class="ListaTexto">
                 <span> 1. MODALIDAD DE TITULACIÓN POR:</span>
