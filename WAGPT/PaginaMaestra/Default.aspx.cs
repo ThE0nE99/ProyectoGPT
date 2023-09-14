@@ -54,7 +54,6 @@ public partial class PaginaMaestra_Default : System.Web.UI.Page
     {
 
     }
-
     protected void btnLimpiar_Click(object sender, EventArgs e)
     {
         Session.RemoveAll();

@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
-
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body class="fondo">
     <form id="form1" runat="server">
     <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+            
     <%--<div>
             <div>
                 <asp:Button ID="btnCodigoUsuarioSesion" runat="server" Text="ID Usuario" OnClick="btnCodigoUsuarioSesion_Click" />
@@ -34,9 +35,14 @@
             
         
         </asp:ContentPlaceHolder>
-      
+
         
     </div>
     </form>
+        <asp:ContentPlaceHolder id="footer" runat="server">
+            
+
+            
+        </asp:ContentPlaceHolder>
 </body>
 </html>
