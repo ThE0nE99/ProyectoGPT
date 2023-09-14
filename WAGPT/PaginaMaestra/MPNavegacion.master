@@ -19,6 +19,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <!--CREACION DEL MENU PRINCIPAL, LATERAL Y SUPERIOR-->
         <div class="barraLateral">
     <div class="detallesLogo">
         <img src="../Imagenes/Logo/Logo_GAAPG.jpg" class="logo" />
