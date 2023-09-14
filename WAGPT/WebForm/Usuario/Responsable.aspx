@@ -11,17 +11,21 @@
 <body>
     <div class="contenedor">
         <div class="Menu" >
-            <div class="buscador">
-                <input class="txtBusqueda" type="text" id="Buscr" name="Buscar"/>
+            <div class="buscador" >
+                <input  class="txtBusqueda" type="text" id="Buscar" name="Buscar" placeholder="Buscar por apellido o nombre responsable"/>
              </div>
-            <div class="">
-                <input class="txtBusqueda" type="text" id="Bur" name="Buscar"/>
-                
-            </div>
-            <div class="">
-                <input class="txtBusqueda" type="text" id="Busr" name="Buscar"/>
-                
-            </div>
+             <div class="ContenedorCombo">
+                <select class="comboOpciones" id="estado" name="estado">
+                  <option value="">ESTADO</option>
+                  <option value="">ACTIVO</option>
+                  <option value="">INACTIVO</option>
+                  <option value="">EN ESPERA</option>
+                </select>
+                <select class="comboOpciones" id="tipo" name="tipo">
+                  <option value="">TIPO</option>
+                  <option value="tesis">TESIS</option>
+              </select>
+             </div>
         </div>
         <div class="contenedorTabla">
             <table class="EstiloTable">
