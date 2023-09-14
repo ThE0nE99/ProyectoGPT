@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Formulario</title>
     <link rel="stylesheet" type="text/css" href="../../Estilos/Formulario1.css"/>
+    
 </head>
 <body>
     <div class="contenedor">
@@ -52,12 +53,20 @@
                 <label class="lblTutor" for="nombre">Tutor:</label>
                 <input class="txtBusquedaTutor" type="text" id="Buscr" name="Buscar"  />
             </div >
-             <div class="ListaTexto">
-                <span> 4. Cargue documento WORD de ser necesario o solicitado:</span>
-                 
+             <div class="SeccionWord">
+                  <div class="TextoCargar">
+                        <span> 4. Cargue documento WORD de ser necesario o solicitado:</span>
+                  </div>
+                  <div class="CargarWord" >
+                    <input  type="file" id="archivo-input" accept=".docx"/>
+                    
+                  </div>
             </div>
-            <button type="submit">Enviar</button>
+            <div class="SeccionSiguiente">
+               <button class="btnSiguiente">Siguiente</button>
+            </div>
         </form>
     </div>
 </body>
+    <script src="../../js/Formulario.js" type="text/javascript"></script>
 </html>
