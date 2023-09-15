@@ -4,17 +4,17 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    margin: auto;
     background-color: lightgray;
     font-family: "Open Sans", sans-serif;
 }
 .contenedor {
-    margin: 10px;
+    margin-bottom: 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 450px;
+    width: 900px;
   
 }
 
@@ -24,7 +24,7 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 450px;
+    width: 900px;
     align-items: center;
    
 }
@@ -35,8 +35,8 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 450px;
-    margin-top: 10px;
+    width: 900px;
+    margin-top: 3px;
     margin-left: auto;
     align-items: center;
    
@@ -59,6 +59,7 @@
     border-radius: 5px;
 }
 
+
 .controles {
     display: flex;
     justify-content: flex-end;
@@ -74,12 +75,52 @@ button {
     cursor: pointer;
 }
 
-p {
-    text-align: right;
+.etapa {
+    text-align: left;
+    padding-left: 80px;
+    font-weight: bold;
 }
-
+.boton {
+    background-color: #850842;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    float: left;
+    font-size: 10px;
+    padding: 5px;
+}
+ul {
+    list-style: disc; /* Utiliza viñetas redondas */
+}
 #porcentaje {
     font-size: 18px;
     font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 10px; /* Alinea el porcentaje a la derecha */
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
+.botones {
+    display: flex;
+    flex-direction: column; /* Los botones se mostrarán uno debajo del otro */
+    align-items: flex-start; /* Centra horizontalmente los botones en el contenedor */
+    margin-top: 90px; /* Agrega espacio superior opcional entre el botón "VER DETALLE" y los botones */
+}
+
+    /* Estilo para los botones dentro del contenedor */
+    .botones button {
+        margin: 5px 0;
+    }
+
+
+
+
+
+
+
+
 

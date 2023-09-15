@@ -14,12 +14,14 @@
         <div class="div1">
             <div class="barra-progreso">
                 <div class="barra" id="barra-progreso"></div>
+                
+                 <div id="porcentaje">0%</div>
             </div>
             <div class="controles">
                 <button onclick="decrementoProgreso()">-</button>
                 <button onclick="incrementoProgreso()">+</button>
             </div>
-            <div id="porcentaje">0%</div>
+           
         </div>
         
 
@@ -27,8 +29,20 @@
     </div>
     <div class="contenedor">
         <div class="div2">
-             <p class="etapa">Etapa1</p>
-            <button class="boton">Botón</button>
+             
+                 <ul class="etapa">
+                     <li>
+                          Etapa 1
+                     </li>
+                 </ul>
+             
+            <button class="boton">VER DETALLE</button>
+             <div class="botones">
+                <button>Botón 1</button>
+                <button>Botón 2</button>
+                <button>Botón 3</button>
+                <button>Botón 4</button>
+            </div>
         </div>
     </div>
    
